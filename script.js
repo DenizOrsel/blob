@@ -3,7 +3,7 @@ async function fetchBlobs() {
   const storageAccount = "apkdownload";
   const containerName = "apkdownloads";
   const sasToken =
-    "?sv=2022-11-02&ss=bfqt&srt=sco&sp=rlpitf&se=2024-03-29T16:20:45Z&st=2024-02-13T08:20:45Z&spr=https&sig=q0xoU%2BW06IzLCQLcIo0maUYtG4zwPiYsh6WDGdyJTLQ%3D";
+    "?sv=2022-11-02&ss=bfqt&srt=sco&sp=rlpitf&se=2024-11-01T18:23:29Z&st=2024-04-10T09:23:29Z&spr=https&sig=EnNAX6RyBULSAoWmCePAaArjDs5I3QagsFTjYe5dODU%3D";
   const baseUrl = `https://${storageAccount}.blob.core.windows.net/${containerName}${sasToken}&restype=container&comp=list`;
 
   try {
